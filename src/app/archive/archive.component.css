@@ -1,0 +1,50 @@
+.tasks{
+  width: 20vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap:1rem;
+}
+
+.task{
+ border: 1px solid black;
+  border-radius: 0.875rem;
+  padding:2rem;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+.title{
+  font-weight: bold;
+}
+.deadline{
+  margin-left: 2rem;
+  background-color: skyblue;
+  border-radius: .875rem;
+  padding:4px;
+}
+.actions{
+  margin-left: auto;
+}
+
+.new-task{
+  width: fit-content;
+  border:1px solid black;
+  padding-inline: 5rem;
+  margin: auto;
+  border-radius: .875rem;
+  margin-bottom: 1rem;
+}
+
+.form-group{
+  margin-block: 2rem;
+}
+
+.submit-btn{
+  width: 100%;
+  padding: 0.5rem;
+  background-color: slateblue;
+  border: none;
+  border-radius: .875rem;
+  cursor: pointer;
+}
